@@ -1,0 +1,7 @@
+{
+  "name": "App todo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

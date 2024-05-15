@@ -1,0 +1,31 @@
+@import './dist/scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+body{
+    background: $primary-background-color;
+}
+
+//classes
+
+.container{
+    width: 350px;
+    margin: 50px auto;
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
